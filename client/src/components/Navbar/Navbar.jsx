@@ -26,7 +26,6 @@ const Navbar = () => {
    const currentUser=null
 
   return (
-    <BrowserRouter>
     <div className={active || pathname !== "/"? "navbar active": "navbar"}>
         <div className='container'>
             <div className="logo">
@@ -124,7 +123,6 @@ const Navbar = () => {
                     </>
                 )}
         </div>
-        </BrowserRouter>
   )
 }
 
